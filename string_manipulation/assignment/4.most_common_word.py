@@ -10,4 +10,4 @@ def most_common_word(s : str, banned : List[str]) -> str:
 if __name__ == '__main__':
     paragraph = "Bob hit a ball, the hit BALL flew far after it was hit"
     banned = ["hit"]
-    print(most_common_word(paragraph, banned))
+    print(most_common_word(paragraph, banned)) #return : ball
